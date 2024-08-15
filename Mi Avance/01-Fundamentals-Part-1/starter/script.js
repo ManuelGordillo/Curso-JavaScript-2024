@@ -66,31 +66,70 @@ console.log(typeof null);*/
 // lastName = "Gordillo";
 // console.log(lastName);
 
-const now = 2037;
-const ageSara = now - 2018;
-const ageJonas = now - 1991;
-console.log(ageJonas, ageSara);
-
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+//const now = 2037;
+//const ageSara = now - 2018;
+//const ageJonas = now - 1991;
+//console.log(ageJonas, ageSara);
+//
+//console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-const firstName = "Jonas";
-const lastName = "Schemedtman";
-console.log(firstName + " " + lastName);
+//const firstName = "Jonas";
+//const lastName = "Schemedtman";
+//console.log(firstName + " " + lastName);
 
 //ASSIGNMENT OPERATORS
-let x = 10 + 5;
-x += 10; // x = x + 10 = 25
-x *= 4; // x = x * 4 = 100
-x++; // x = x + 1 = 101
-x--; // x = x - 1 = 100
-x--; // x = x - 1 = 99
-console.log(x);
+//let x = 10 + 5;
+//x += 10; // x = x + 10 = 25
+//x *= 4; // x = x * 4 = 100
+//x++; // x = x + 1 = 101
+//x--; // x = x - 1 = 100
+//x--; // x = x - 1 = 99
+//console.log(x);
 
 //Comparison Operators
-console.log(ageJonas > ageSara); // >, <, >=, <=
-console.log(ageSara >= 18);
+//console.log(ageSara >= 18);
+//console.log(ageJonas > ageSara); // >, <, >=, <=
+//
+//const isFullAge = ageSara >= 18;
+//
+//console.log(now - 1991 > now - 2018);
+//
+//console.log(25-10-5);
+//
+//let x, y;
+//x = y = 25 - 10 -5; // x = y = 10, x = 10
+//console.log(x,y);
+//
+//const averageAge = (ageJonas + ageSara) / 2;
+//console.log(ageJonas, ageSara, averageAge);
 
-const isFullAge = ageSara >= 18;
+//let massMark = 78;
+//let heigthMark = 1.69;
+//let massJohn = 92;
+//let heigtJohn = 1.95;
+//
+//const BMIMark = massMark / heigthMark**2;
+//const BMIJohn = massJohn / (heigtJohn*heigtJohn);
+//
+//console.log('Mark: ' + BMIMark, 'John: ' + BMIJohn);
 
-console.log(now - 1991 > now - 2018);
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+console.log('String with \n\
+multiple\n\
+lines');
+
+console.log(`String
+multiple
+lines`);
